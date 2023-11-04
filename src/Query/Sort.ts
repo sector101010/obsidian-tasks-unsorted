@@ -1,11 +1,11 @@
 import type { Task } from '../Task';
 import type { Comparator } from './Sorter';
 import type { Sorter } from './Sorter';
-import { StatusField } from './Filter/StatusField';
+/*import { StatusField } from './Filter/StatusField';
 import { DueDateField } from './Filter/DueDateField';
 import { PriorityField } from './Filter/PriorityField';
 import { PathField } from './Filter/PathField';
-import { UrgencyField } from './Filter/UrgencyField';
+import { UrgencyField } from './Filter/UrgencyField';*/
 
 export class Sort {
     public static by(sorters: Sorter[], tasks: Task[]) {
