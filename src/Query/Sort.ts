@@ -23,7 +23,8 @@ export class Sort {
             userComparators.push(sorter.comparator);
         }
 
-        return tasks.sort(Sort.makeCompositeComparator([...userComparators, ...defaultComparators]));
+        //return tasks.sort(Sort.makeCompositeComparator([...userComparators, ...defaultComparators])); // << this is how it's like in the official plugin
+        return tasks.sort(Sort.makeCompositeComparator([...userComparators]));
     }
 
     private static makeCompositeComparator(comparators: Comparator[]): Comparator {
