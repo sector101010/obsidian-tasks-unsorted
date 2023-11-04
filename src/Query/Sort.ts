@@ -9,13 +9,13 @@ import { UrgencyField } from './Filter/UrgencyField';
 
 export class Sort {
     public static by(sorters: Sorter[], tasks: Task[]) {
-        const defaultComparators: Comparator[] = [
+        /*const defaultComparators: Comparator[] = [
             new UrgencyField().comparator(),
             new StatusField().comparator(),
             new DueDateField().comparator(),
             new PriorityField().comparator(),
             new PathField().comparator(),
-        ];
+        ];*/
 
         const userComparators: Comparator[] = [];
 
