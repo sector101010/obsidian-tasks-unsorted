@@ -1,6 +1,6 @@
 {
-  "id": "obsidian-tasks-plugin",
-  "name": "Tasks",
+  "id": "obsidian-tasks-plugin-unsorted",
+  "name": "Tasks Unsorted",
   "version": "5.0.0",
   "minAppVersion": "1.1.1",
   "description": "Task management for Obsidian",
